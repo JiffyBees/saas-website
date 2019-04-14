@@ -1,0 +1,43 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  background-color:
+}
+
+header {
+  background-color: #007399;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+}
+
+.sail-cu{
+  font-family: 'Oleo Script', cursive;
+  color: #fff;
+}
+
+h1, h2 {
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+li, a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.b-btn {
+  color: #fff;
+  background-color: #99e6ff;
+}
+
+.light-blue-b {
+  background-color: #00b8e6
+}
+
+.white {
+  color: #fff;
+}
+
+.button-dark {
+   background-color: #004e66;
+}
