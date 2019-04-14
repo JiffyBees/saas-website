@@ -4,22 +4,23 @@
   <meta charset="utf-8">
   <title>Homepage</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oleo+Script|Open+Sans+Condensed:300,700|Open+Sans:300,400,700|Roboto+Condensed:300,400,700|Roboto+Slab:400,700" rel="stylesheet">
 </head>
 <body>
+
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
 
-  <header role="banner">
-    <img class="img-flex" alt="" src="images/logo.svg">
-    <h1 class="sail-cu">Sail mail</h1>
-    <nav role="navigation" id="nav" tabindex="0">
+  <header role="banner" class="grid">
+    <img class="unit xs-1-3 img-flex" alt="" src="images/logo.svg">
+    <h1 class="unit xs-1-3 sail-cu">Sail mail</h1>
+    <nav role="navigation" class="unit xs-1-3 list-group-inline" id="nav" tabindex="0">
       <ul>
         <li><a href="tour.html">Product</a></li>
         <li><a href="pricing.html">Pricing</a></li>
@@ -29,62 +30,71 @@
     </nav>
   </header>
 
-  <main>
-    <section>
+  <main role="main">
+    <section class="unit text-center">
       <h2>Set sail for Global Research!</h2>
       <p>Send thousands of surveys all around the world for a better Marketing Network.</p>
       <div>
-        <button>Sign up free</button>
+        <a class="b-btn" href="#conservation">Sign up free</a>
       </div>
     </section>
 
     <hr>
 
-    <section>
-      <img class="img flex" alt="" src="images/icon1.svg">
+    <img class="unit m-1-3 img-flex" alt="" src="images/icon1.svg">
+    <section class="unit m-1-2 island">
       <h2>Our Service</h2>
       <p>Send thousands of surveys all around the world for a better Marketing Network.</p>
       <a class="b-btn" href="#conservation">See Products</a>
     </section>
 
-    <section>
-      <img class="img flex" alt="" src="images/icon2.svg">
+    <img class="unit m-1-3 img-flex" alt="" src="images/icon2.svg">
+    <section class="unit m-1-2 island">
       <h2>Our Plans</h2>
       <p>We are dedicated to creating a Fast, Global, market network between our clients and customers. Browse our plans to learn more about specific features</p>
-      <a class="b-btn"href="#conservation">See Pricing</a>
+      <a class="b-btn" href="#conservation">See Pricing</a>
     </section>
+  </main>
 
+  <div class="unit m-1-3">
     <img class="img flex" alt="" src="images/icon5.svg">
     <p>Plan, keep records, and manage projects from any device–even offline.</p>
+  </div>
 
+  <div class="unit m-1-3">
     <img class="img flex" alt="" src="images/icon4.svg">
     <p>Manage projects, deadlines, clients, and meetings with ease.</p>
+  </div>
 
+  <div class="unit m-1-3">
     <img class="img flex" alt="" src="images/icon3.svg">
     <p>Edit Surveys, document your analysis, set reminders, and edit at your leisure.</p>
+  </div>
 
-    <img class="img flex" alt="" src="images/smiling-888532_1920.jpg">
+  <div class="unit">
+    <img class="img-flex" alt="" src="images/smiling-888532_1920.jpg">
     <p>"Sail Mail helped me start my own online business, allowing it to grow past the millions. I wouldn’t be doing what I love without it."</p>
+  </div>
 
+  <div class="unit">
     <h2>Still not convinced?</h2>
-    <a class="b-btn" href="#conservation">See Products</a>
+    <a class="b-btn" href="tour.html">See Products</a>
+  </div>
 
-    <footer role="contentinfo">
-      <small class="push-0 micro">Community: Our Blog • Facebook • Twitter •  Instagram • Linkedin</small>
-      <small>Support: Leadership • Teams Board of directors • App Directory</small>
-      <small>Policies: Anti Spam • Policy Security Statement</small>
-      <nav>
-        <ul>
-          <li><a class="button-dark" href="">About Us</a></li>
-          <li><a class="button-dark" href="">Privacy policy</a></li>
-          <li><a class="button-dark" href="">Terms and conditions</a></li>
-          <li><a class="button-dark" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <small>©2018-2019 All Rights Reserved to Sail Mail</small>
-    </footer>
+  <footer role="contentinfo">
+    <small class="push-0 micro">Community: Our Blog • Facebook • Twitter • Instagram • Linkedin</small>
+    <small>Support: Leadership • Teams Board of directors • App Directory</small>
+    <small>Policies: Anti Spam • Policy Security Statement</small>
+    <nav>
+      <ul>
+        <li><a class="button-dark" href="">About Us</a></li>
+        <li><a class="button-dark" href="">Privacy policy</a></li>
+        <li><a class="button-dark" href="">Terms and conditions</a></li>
+        <li><a class="button-dark" href="">Contacts</a></li>
+      </ul>
+    </nav>
+    <small>©2018-2019 All Rights Reserved to Sail Mail</small>
+  </footer>
 
-
-
-  </body>
-  </html>
+</body>
+</html>
