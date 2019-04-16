@@ -39,7 +39,9 @@ li, a {
 }
 
 .button-dark {
-   background-color: #004e66;
+   background-color: #003f5b;
+   padding: .5em;
+   border-radius: 8px;
 }
 
 footer {
