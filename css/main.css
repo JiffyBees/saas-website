@@ -41,3 +41,11 @@ li, a {
 .button-dark {
    background-color: #004e66;
 }
+
+footer {
+  background-color: #004e66;
+}
+
+.social {
+  max-width: 23%;
+}
