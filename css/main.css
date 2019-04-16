@@ -25,6 +25,10 @@ li, a {
   text-decoration: none;
 }
 
+a:hover {
+  background-color: #003f5b;
+}
+
 .b-btn {
   color: #fff;
   background-color: #99e6ff;
@@ -50,4 +54,8 @@ footer {
 
 .social {
   max-width: 23%;
+}
+
+.card {
+  border: 3px solid #f2d2d2;
 }
