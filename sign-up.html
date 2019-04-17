@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <title>Sign up</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oleo+Script|Open+Sans+Condensed:300,700|Open+Sans:300,400,700|Roboto+Condensed:300,400,700|Roboto+Slab:400,700" rel="stylesheet">
 </head>
 <body>
@@ -17,7 +17,7 @@
   </ul>
 
   <header role="banner" class="grid grid-middle">
-    <img class="island unit xs-1-4 img-flex" alt="" src="images/logo.svg">
+    <img class="island unit xs-1-4 img-flex" alt="" src="images/logo.svg" role="presentation">
     <h1 class="unit xs-1-4 sail-cu">Sail mail</h1>
     <nav role="navigation" class="gutter text-right unit xs-1-2 list-group-inline" id="nav" tabindex="0">
       <ul class="list-group-inline">
@@ -29,42 +29,41 @@
     </nav>
   </header>
 
+  <h2>Start your Free Account</h2>
+
   <form method="POST" action="https://formspree.io/rose0244@algonquincollege.com">
 
-    <fieldset class="unit xs-1 s-1 m-1 l-1">
-      <legend class="not-bold italic giga push-3-4">Personal details</legend>
-      <div class="grid">
-
-        <div class="unit xs-1 s-1 m-1 l-1-2 pad-b space-left">
-          <label for="name">first name</label>
-          <input id="name" required>
-        </div>
-
-        <div class="unit xs-1 s-1 m-1 l-1-2 pad-b space-right">
-          <label for="age">last name</label>
-          <input id="age" required>
-        </div>
-
-        <div class="unit xs-1 s-1 m-1 l-1-2 pad-b space-left">
-          <label for="email">Email</label>
-          <input id="email" type="email" required>
-        </div>
-
-        <div class="unit xs-1 s-1 m-1 l-1-2 pad-b space-left">
-          <label for="detail">User-name</label>
-          <input required>
-        </div>
-
-        <div class="unit xs-1 s-1 m-1 l-1-2 pad-b space-left">
-          <label for="password">Password</label>
-          <input required>
-        </div>
+    <div class="grid island">
+      <div class="unit xs-1 s-1 m-1 l-1-2 pad-b gutter space-left">
+        <label for="name">first name</label>
+        <input id="name" required>
       </div>
+
+      <div class="unit xs-1 s-1 m-1 l-1-2 pad-b gutter space-right">
+        <label for="age">last name</label>
+        <input id="age" required>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1 pad-b gutter space-left">
+        <label for="email">Email</label>
+        <input id="email" type="email" required>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1 pad-b gutter space-left">
+        <label for="detail">User-name</label>
+        <input id="detail" required>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1 pad-b gutter space-left">
+        <label for="password">Password</label>
+        <input id="password" required>
+      </div>
+    </div>
   </form>
 
   <section>
-    <a class="unit xs-1 btn" href="index.html">Submit</a>
-</section>
+    <a class="unit xs-1 btn text-center" href="index.html">Submit</a>
+  </section>
 
   <footer role="contentinfo" class="grid pad-t gutter">
     <div class="unit m-1-2">
@@ -76,21 +75,20 @@
     </div>
 
     <div class="unit m-1-2 wrapper social">
-      <img class="img-flex" alt="" src="images/icon-in.svg">
+      <img class="img-flex" alt="" src="images/icon-in.svg" role="presentation">
     </div>
     <nav class="unit m-1 gutter text-center island">
       <ul class="grid list-group-inline">
-        <li class="unit xs-1 m-1-4"><a class="button-dark" href="">About Us</a></li>
-        <li class="unit xs-1 m-1-4"><a class="button-dark" href="">Privacy policy</a></li>
-        <li class="unit xs-1 m-1-4"><a class="button-dark" href="">Terms and conditions</a></li>
-        <li class="unit xs-1 m-1-4"><a class="button-dark" href="">Contacts</a></li>
+        <li class="unit xs-1 m-1-4"><a class="button-dark" href="index.html">About Us</a></li>
+        <li class="unit xs-1 m-1-4"><a class="button-dark" href="sign-up.html">Privacy policy</a></li>
+        <li class="unit xs-1 m-1-4"><a class="button-dark" href="sign-up.html">Terms and conditions</a></li>
+        <li class="unit xs-1 m-1-4"><a class="button-dark" href="sign-up.html">Contacts</a></li>
       </ul>
     </nav>
     <div class="text-center unit m-1 push-1-2">
       <small class="white">©2018-2019 All Rights Reserved to Sail Mail</small>
     </div>
   </footer>
-
 
 </body>
 </html>

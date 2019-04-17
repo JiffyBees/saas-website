@@ -1,6 +1,5 @@
 html {
-  font-family: 'Open Sans', sans-serif;
-  background-color:
+  font-family: "Open Sans", sans-serif;
 }
 
 header {
@@ -8,16 +7,16 @@ header {
 }
 
 p {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
-.sail-cu{
-  font-family: 'Oleo Script', cursive;
+.sail-cu {
+  font-family: "Oleo Script", cursive;
   color: #fff;
 }
 
 h1, h2 {
-font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 li, a {
@@ -35,7 +34,7 @@ a:hover {
 }
 
 .light-blue-b {
-  background-color: #00b8e6
+  background-color: #00b8e6;
 }
 
 .white {
@@ -43,9 +42,9 @@ a:hover {
 }
 
 .button-dark {
-   background-color: #003f5b;
-   padding: .5em;
-   border-radius: 8px;
+  background-color: #003f5b;
+  padding: .5em;
+  border-radius: 8px;
 }
 
 footer {
