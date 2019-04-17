@@ -15,11 +15,19 @@ p {
   color: #fff;
 }
 
+.absolute {
+  position: absolute;
+}
+
 h1, h2 {
   font-family: "Open Sans Condensed", sans-serif;
 }
 
-li, a {
+li {
+  color: #000;
+}
+
+a {
   color: #fff;
   text-decoration: none;
 }
@@ -30,11 +38,11 @@ a:hover {
 
 .b-btn {
   color: #fff;
-  background-color: #99e6ff;
+  background-color: #003f5b;
 }
 
 .light-blue-b {
-  background-color: #00b8e6;
+  background-color: #004f5b;
 }
 
 .white {
@@ -57,4 +65,9 @@ footer {
 
 .card {
   border: 3px solid #f2d2d2;
+}
+
+.background-img {
+  background-image: url("../images/crab.png");
+  background-size: 100%;
 }
