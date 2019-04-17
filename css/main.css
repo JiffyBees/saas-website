@@ -71,3 +71,15 @@ footer {
   background-image: url("../images/crab.png");
   background-size: 100%;
 }
+
+.form-bg {
+  background-color: rgba(255, 255, 255, .4);
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("../images/turntable.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

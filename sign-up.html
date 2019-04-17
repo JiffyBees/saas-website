@@ -16,11 +16,15 @@
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
 
-  <header role="banner" class="grid grid-middle">
-    <img class="island unit xs-1-4 img-flex" alt="" src="images/logo.svg" role="presentation">
-    <h1 class="unit xs-1-4 sail-cu">Sail mail</h1>
-    <nav role="navigation" class="gutter text-right unit xs-1-2 list-group-inline" id="nav" tabindex="0">
-      <ul class="list-group-inline">
+  <header role="banner" class="grid grid-middle pad-t-1-2 pad-b-1-2 gutter">
+    <div class="unit xs-1 s-1 m-1-4">
+      <i class="icon i-64">
+        <img class="img-flex" alt="" src="images/logo.svg" aria-details="imagelogo">
+      </i>
+      <h1 class="sail-cu ib push-0 icon-label">Sail mail</h1>
+    </div>
+    <nav role="navigation" class="gutter text-right unit xs-1 s-1 m-3-4" id="nav" tabindex="0">
+      <ul class="list-group-inline push-0">
         <li class="gutter"><a href="tour.html">Product</a></li>
         <li class="gutter"><a href="pricing.html">Pricing</a></li>
         <li class="gutter"><a href="sign-up.html">Log in</a></li>
@@ -29,43 +33,55 @@
     </nav>
   </header>
 
-  <h2>Start your Free Account</h2>
+  <main role="main" id="main" tabindex="0" class="parallax">
+    <div class="wrapper pad-t-2 pad-b-2 form-bg">
+      <h2 class="text-center">Start your Free Account</h2>
+      <form method="POST" action="https://formspree.io/rose0244@algonquincollege.com">
 
-  <form method="POST" action="https://formspree.io/rose0244@algonquincollege.com" class="absolute">
+        <div class="grid island">
+          <div class="unit xs-1 s-1 m-1 l-1-2 pad-b gutter space-left">
+            <label for="name">first name</label>
+            <input id="name" name="first-name" required>
+          </div>
 
-    <div class="grid island">
-      <div class="unit xs-1 s-1 m-1 l-1-2 pad-b gutter space-left">
-        <label for="name">first name</label>
-        <input id="name" required>
-      </div>
+          <div class="unit xs-1 s-1 m-1 l-1-2 pad-b gutter space-right">
+            <label for="age">last name</label>
+            <input id="age" name="last-name" required>
+          </div>
 
-      <div class="unit xs-1 s-1 m-1 l-1-2 pad-b gutter space-right">
-        <label for="age">last name</label>
-        <input id="age" required>
-      </div>
+          <div class="unit xs-1 s-1 m-1 pad-b gutter space-left">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required>
+          </div>
 
-      <div class="unit xs-1 s-1 m-1 pad-b gutter space-left">
-        <label for="email">Email</label>
-        <input id="email" type="email" required>
-      </div>
+          <div class="unit xs-1 s-1 m-1 pad-b gutter space-left">
+            <label for="detail">User-name</label>
+            <input id="detail" name="user-name" required>
+          </div>
 
-      <div class="unit xs-1 s-1 m-1 pad-b gutter space-left">
-        <label for="detail">User-name</label>
-        <input id="detail" required>
-      </div>
+          <div class="unit xs-1 s-1 m-1 pad-b gutter space-left">
+            <label for="password">Password</label>
+            <input id="password" name="password" required>
+          </div>
+        </div>
 
-      <div class="unit xs-1 s-1 m-1 pad-b gutter space-left">
-        <label for="password">Password</label>
-        <input id="password" required>
-      </div>
+        <div class="unit xs-1 text-center">
+          <button class="btn" type="submit">Create account</button>
+        </div>
+      </form>
     </div>
-  </form>
 
-    <img class="island unit embed-16by9 img-flex pad-0" alt="" src="images/turntable.jpg">
-
-  <section>
-    <a class="unit xs-1 btn text-center" href="index.html">Create account</a>
-  </section>
+    <section class="unit xs-1 relative">
+      <div class="embed embed-3by1">
+        <img class="img-flex embed-item" src="images/crab.png" alt="" role="presentation">
+      </div>
+      <div class="pin-c text-center">
+        <h2>Return Home</h2>
+        <p>Thanks for signing up</p>
+        <a class="btn b-btn" href="index.html">Return Home</a>
+      </div>
+    </section>
+  </main>
 
   <footer role="contentinfo" class="grid pad-t gutter">
     <div class="unit m-1-2">
